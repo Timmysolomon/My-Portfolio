@@ -1,0 +1,143 @@
+/* Reset */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background: #596276;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #f9a826;
+}
+
+/* Main content */
+main {
+  margin-top: 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  padding-bottom: 80px; /* Prevent footer overlap */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #222;
+  border-bottom: 3px solid #f9a826;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Project Cards */
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  text-align: center;
+  animation: fadeUp 0.8s ease-in-out both;
+}
+
+.project-card img {
+  width: 50%;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.project-card a {
+  display: inline-block;
+  background-color: #f9a826;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #ffbe33;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 10px 0;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+    padding: 10px;
+    display: block;
+  }
+}

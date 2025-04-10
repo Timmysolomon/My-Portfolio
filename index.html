@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timilehin Osiyoku - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>👋Hey there! I'm <strong>Timilehin Osiyoku</strong>, a passionate web developer 🚀.</p>
+                <p>I specialize in front-end development with a focus on React, JavaScript, and modern UI frameworks. I love creating clean, functional, and visually appealing web applications.</p>
+            </section>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+
+                <!-- Weather App Project -->
+                <div class="project-card">
+                    <img src="images/weather-app.png" alt="Screenshot of Weather App">
+                    <h3>Weather App</h3>
+                    <p>This weather app allows you to get the current weather by simply entering a city name.</p>
+                    <a href="https://timmysolomon.github.io/weather-app/" target="_blank">View Weather App</a>
+                </div>
+
+                <!-- Recipe Finder Project -->
+                <div class="project-card">
+                    <img src="images/recipe-finder.png" alt="Screenshot of Recipe Finder">
+                    <h3>Recipe Finder</h3>
+                    <p>Find recipes based on ingredients you have at home using the Spoonacular API.</p>
+                    <a href="https://timmysolomon.github.io/recipe-finder/" target="_blank">View Recipe Finder</a>
+                </div>
+
+                <!-- To-Do List Project -->
+                <div class="project-card">
+                    <img src="images/todo-list.png" alt="Screenshot of To-Do List App">
+                    <h3>To-Do List</h3>
+                    <p>Manage your tasks with this simple and functional to-do list app built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://timmysolomon.github.io/to-do-list/" target="_blank">View To-Do List</a>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:timmysolomon953@gmail.com">timmysolomon953@gmail.com</a> 📩</p>
+                <p>GitHub: <a href="https://github.com/Timmysolomon">github.com/Timmysolomon</a> 🖥️</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Timilehin Osiyoku - Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
+    <script>
+        window.onload = function() {
+            twemoji.parse(document.body);
+        };
+    </script>
+</body>
+</html>
